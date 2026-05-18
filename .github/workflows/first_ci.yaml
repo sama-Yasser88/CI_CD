@@ -1,0 +1,9 @@
+name: first-ci
+on: push
+jobs: 
+    unittest: 
+        runs-on: ubuntu
+        steps:
+            - name: hello
+              run: echo hello
+        
