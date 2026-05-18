@@ -2,7 +2,7 @@ name: first-ci
 on: push
 jobs: 
     unittest: 
-        runs-on: ubuntu
+        runs-on: ubuntu-latest
         steps:
             - name: hello
               run: echo hello
